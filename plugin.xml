@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<plugin xmlns:android="http://schemas.android.com/apk/res/android" id="cordova-plugin-admob-free"
-    version="0.24.0" xmlns="http://apache.org/cordova/ns/plugins/1.0">
-    <name>Cordova AdMob Plugin</name>
+<plugin xmlns:android="http://schemas.android.com/apk/res/android" id="cordova-plugin-admob-free-cdv8"
+    version="0.25.0" xmlns="http://apache.org/cordova/ns/plugins/1.0">
+    <name>Cordova AdMob Plugin for cdv 8</name>
     <description>Robust, reliable and easy to use Cordova Admob plugin for Android and iOS
         phone. Allows preloading and automatic loading of interstitials and banners plus more.
     </description>
-    <author>Ratson</author>
+    <author>NoErrorZone</author>
     <license>MIT</license>
     <keywords>admob, google, cordova-ios, cordova-android, ecosystem:cordova, android, ios,
         money, monetization, iad, services, play, earn, publicity, advertisment, advertising,
         ads, ad, eclipse, android studio
     </keywords>
-    <repo>https://github.com/ratson/cordova-plugin-admob-free.git</repo>
-    <issue>https://github.com/ratson/cordova-plugin-admob-free/issues</issue>
+    <repo>https://github.com/NoErrorZone/cordova-plugin-admob-free-cdv8.git</repo>
+    <issue>https://github.com/NoErrorZone/cordova-plugin-admob-free-cdv8/issues</issue>
 
     <engines>
         <engine name="cordova" version=">=4.0" />
     </engines>
 
-    <js-module name="AdMob" src="www/admob.js">
+    <js-module name="AdMob" src="src/js/admob.js">
         <clobbers target="admob" />
         <!-- the following export will be removed in future -->
         <clobbers target="AdMob" />

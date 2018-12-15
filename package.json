@@ -1,6 +1,6 @@
 {
-  "name": "cordova-plugin-admob-free",
-  "version": "0.24.0",
+  "name": "cordova-plugin-admob-free-cdv8",
+  "version": "0.25.0",
   "description": "Cordova AdMob Plugin for Google AdMob",
   "scripts": {
     "prepublish": "run-s clean build",
@@ -21,14 +21,14 @@
     "lint:spaces": "lintspaces -n -t -d spaces *.* src/**/*.* tests/**/*.* examples/*/*.* examples/*/www/*.*"
   },
   "cordova": {
-    "id": "cordova-plugin-admob-free",
+    "id": "cordova-plugin-admob-free-cdv8",
     "platforms": [
       "android",
       "ios"
     ]
   },
-  "homepage": "https://ratson.github.io/cordova-plugin-admob-free/",
-  "repository": "ratson/cordova-plugin-admob-free",
+  "homepage": "https://NoErrorZone.github.io/cordova-plugin-admob-free-cdv8/",
+  "repository": "NoErrorZone/cordova-plugin-admob-free-cdv8",
   "keywords": [
     "cordova",
     "admob",

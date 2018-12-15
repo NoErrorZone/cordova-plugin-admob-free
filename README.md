@@ -1,4 +1,4 @@
-# Cordova AdMob Plugin
+# Cordova AdMob Plugin for Cordova 8
 
 A free, no ad-sharing version of Google AdMob plugin for Cordova.
 
@@ -47,13 +47,13 @@ For those interested could download the npm tarball for investigation.
 ## Installation
 
 ```sh
-cordova plugin add cordova-plugin-admob-free --save
+cordova plugin add https://github.com/NoErrorZone/cordova-plugin-admob-free-cdv8 --save
 ```
 
 Since the version 17 of play-services-ads and the 0.21.0 version of the plugin the ADMOB_APP_ID must be added to the AndroidManifest.xml. To install the plugin without errors and to insert the ADMOB_APP_ID to the manifest file automatically use the following code:
 
 ```sh
-cordova plugin add cordova-plugin-admob-free --save --variable ADMOB_APP_ID="<YOUR_ADMOB_APP_ID_AS_FOUND_IN_ADMOB>"
+cordova plugin add https://github.com/NoErrorZone/cordova-plugin-admob-free-cdv8 --save --variable ADMOB_APP_ID="<YOUR_ADMOB_APP_ID_AS_FOUND_IN_ADMOB>"
 ```
 
 
